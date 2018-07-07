@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;}
+a:visited {
+  color:inherit;}
+a:hover {
+  color:#FF00FF;}
+a:active {
+  color:#0000FF;}
+a:hover{
+     color:#00A0C6;
+     text-decoration:none;
+     cursor:pointer;}
+
+body {
+    font-family: Roboto, "Times new roman", Arial;
+}
+
+.scroll {
+  overflow-y: scroll;
+  width: 400%;
+  margin-right: -600%;
+  padding: 1%;
+}
+
+.why {
+  text-align: center;
+  font-size: 150%;
+  font-style: italic;
+  padding: 2% 0 0 0;
+}
+
+.when {
+}
+
+.who {
+  text-align: center;
+  font-size: 50%;
+  display: flex;
+  padding: 1% 0 2% 0;
+}
+
+.border {
+  width: 110%;
+  left: -7%;
+  padding: 0 0 2% 0;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+
+#Name {
+  font-size: 50%;
+  display: inline-block;
+}
+
+#Title {
+  font-size: 30%;
+}
+
+.items {
+  position: fixed;
+  bottom: 0;
+  padding: 2%;
+  width: 100%;
+}
+
+.container {
+  font-size: 250%;
+}
+
+.row {
+}
